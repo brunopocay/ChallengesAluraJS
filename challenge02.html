@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge 02</title>
+</head>
+<body>
+    <main>
+        <div class="perguntas">
+            <p>Qual o seu nome?</p> 
+            <input type="text" name="nome" id="nome" placeholder="Digite aqui seu nome">
+            <p >Quantos anos você tem?</p>
+            <input type="number" name="idade" placeholder="Ex: 27" id="idade">
+            <p> Qual linguagem de programação você está estudando?</p>
+            <input type="text" name="linguagem" placeholder="Ex: JavaScript" id="linguagem">
+
+            <button id="enviar" onclick="enviarMensagem()"> Enviar </button>
+        </div>
+
+        <div id="respostas">
+            
+        </div>
+
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
